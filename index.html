@@ -1,19 +1,43 @@
 <html>
-    <head>
-        <title>ScaleLocal User Type</title>
-        <link rel="stylesheet" href="style.css" />
-        <script src="index.js"></script>
-    </head>
-    <body>
-        <div class="main-div">
-            <h1>Which user are you?</h1>
-            <form action="../login-user/index.html">
-                <button>Small Business</button>
-            </form> 
-            <br>
-            <form action="../login-non-users/index.html">
-                <button>Consultant, Investor, Advisor</button>
-            </form>
-        </div>
-    </body>
+  <head>
+    <title>ScaleLocal Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+  </head>
+  <body>
+    <div id="login_div" class="main-div">
+      <h1>ScaleLocal Non-User Login</h1>
+      <input type="email" placeholder="Email..." id="email_field" />
+      <input type="password" placeholder="Password..." id="password_field" />
+      <button onclick="login()">Login to account</button>
+      <br />
+      <button onclick="signup()">Sign Up</button>
+    </div>
+
+    <div id="user_div" class="loggedin-div">
+      <h3>Welcome User</h3>
+      <p id="user_para">Welcome to firebase web login example.</p>
+      <button onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCQ00ev3sYiNVp0d4aKqBaoSp2WHvoLtC8",
+        authDomain: "scalelocal.firebaseapp.com",
+        databaseURL: "https://scalelocal.firebaseio.com",
+        projectId: "scalelocal",
+        storageBucket: "scalelocal.appspot.com",
+        messagingSenderId: "260750238801",
+        appId: "1:260750238801:web:69dc80bd1b4317aa2c4470",
+        measurementId: "G-KBQ9C4SBLL",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="index.js"></script>
+  </body>
 </html>
