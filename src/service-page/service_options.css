@@ -28,13 +28,17 @@ h1, nav a.active {
   color: #0E4DA4;
 }
 
-nav a:hover {
+nav a:hover, #sign-in:hover {
   color: gray;
 }
 
 #user-btn {
   position: absolute;
   right: 100px;
+}
+
+button:hover, #dropdown-cat:hover, #dropdown-price:hover {
+  cursor: pointer;
 }
 
 header button {
@@ -53,9 +57,13 @@ header button {
 
 #sign-up {
   background-color: #0E4DA4;
-  border: none;
   color: white;
+  border: none;
   text-decoration: none;
+}
+
+#sign-up:hover {
+  background-color: #3e6daf;
 }
 
 section {
