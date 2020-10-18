@@ -1,15 +1,14 @@
-  
+
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>NAVBAR</title>
-         
+
         <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
         <script type="text/javascript" src = "main.js"></script>
     </head>
     <body>
-        
+
         <ul class="nav">
         <li><h1>LOCALSCALE</h1></li>
         <li><a href="#">About</a></li>
@@ -20,24 +19,39 @@
         </ul>
 
         <ul class = "disBut">
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>Managment</a></li>
-        <li><a href='#'>Investing</a></li>
-        <li><a href='#'>Funding</a></li>
-        <li><a href='#'>Supply Chain</a></li>
+        <li><button href='#'>Home</button></li>
+        <li><button href='#'>Managment</button></li>
+        <li><button href='#'>Investing</button></li>
+        <li><button href='#'>Funding</button></li>
+        <li><button href='#'>Supply Chain</button></li>
         </ul>
         <ul class = "popDis">
         <a href="#">Popular Discussion</a>
-        <button type="Create_Post" value="Create_Post" onclick="addTextBox()">Post </button>
-        </ul>
-        <title>
-            <description>
 
-            </description>>
-        </title>>
+
+        <form action="/action_page.php" method="get">
+            <div id = "checkbox">
+            <input type="checkbox" name="box1" value="Managment">
+            <label for="box1"> Managment</label><br>
+            <input type="checkbox" name="box2" value="Investing">
+            <label for="box2"> Investing</label><br>
+            <input type="checkbox" name="box3" value="Funding" >
+            <label for="box3"> Funding</label><br>
+            <input type="checkbox" name="box4" value="Supply Chain" >
+            <label for="box4"> Supply Chain</label><br>
+            </div>
+          </form>
+        <form id="new-post">
+            <textarea id="textbox" type="text" id="textbox" placeholder="What do you need help with today?"></textarea>
+            <input id="submit-btn" type="submit" value="Post" onclick="storeInfo(checkbox)"></input>
+        </form>
+        </ul>
+
+        <IMG STYLE="position:absolute; TOP:700px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="firstPost.png">
+        <IMG STYLE="position:absolute; TOP:900px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="firstSecondPost.png">
         <IMG STYLE="position:absolute; TOP:225px; LEFT:914px; WIDTH:374px; HEIGHT:374px" SRC="AAAA.png">
-        
-        
-             
+
+
+
 
     </body>

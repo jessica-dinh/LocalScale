@@ -12,7 +12,7 @@ body{
 }
 
 .nav > li {
-    display: inline-block; 
+    display: inline-block;
     padding-right: 50px;
 }
 .nav > li > h1 {
@@ -46,7 +46,7 @@ body{
     padding-left: 50px;
 }
 
-.disBut > li > a{
+.disBut > li > button{
     text-decoration: none;
     color: #1f1010;
 }
@@ -87,6 +87,50 @@ body{
 	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
 	background-color:#a5cc52;
 }
+
+#new-post {
+    display: flex;
+    flex-direction: column;
+}
+
+#box{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+html { overflow-y: scroll; }
+body { position: absolute; }
+
+
+
+#textbox {
+    height: 200px;
+}
+
+#submit-btn{
+    box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	background-color:#b8e356;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #86ae47;
+    margin-left: 20px;
+}
+
+#submit-btn:hover{
+    background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	background-color:#a5cc52;
+}
+
+
 .popDis > button:active {
 	position:relative;
 	top:1px;
