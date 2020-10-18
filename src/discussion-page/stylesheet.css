@@ -12,7 +12,7 @@ body{
 }
 
 .nav > li {
-    display: inline-block; 
+    display: inline-block;
     padding-right: 50px;
 }
 .nav > li > h1 {
@@ -87,6 +87,16 @@ body{
 	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
 	background-color:#a5cc52;
 }
+
+#new-post {
+    display: flex;
+    flex-direction: column;
+}
+
+#textbox {
+    height: 200px;
+}
+
 .popDis > button:active {
 	position:relative;
 	top:1px;
