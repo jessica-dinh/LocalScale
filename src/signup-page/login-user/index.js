@@ -13,7 +13,11 @@ firebase.auth().onAuthStateChanged(function (user) {
 });
 
 function storeDatabase(){
-  db.collection
+  db.collection("users").doc("andy").add({
+    userName: "Andy",
+    userBusiness: "Business"
+  }
+  )
 }
 
 function signup() {
