@@ -1,0 +1,96 @@
+body :not() {
+  font-size: 16px;
+  margin: 30px;
+}
+header {
+  margin: 0%;
+}
+
+header, #header {
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  background-color: #F3F6FA;
+  align-items: center;
+}
+
+nav {
+  margin-left: 220px;
+}
+
+/* links inside the navigation bar */
+nav a {
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+/* active nav link */
+h1, nav a.active {
+  color: #0E4DA4;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+#user-btn {
+  position: absolute;
+  right: 100px;
+}
+
+header button {
+  font-size: 16px;
+  text-align: center;
+  height: 35px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+#sign-in {
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+#sign-up {
+  background-color: #0E4DA4;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  margin-top: 50px;
+}
+
+#header {
+  display: flex;
+  padding: 80px;
+}
+
+#header img {
+  max-width: 30%;
+  height: auto;
+  margin-right: 30px;
+}
+
+/* card container */
+.container {
+  padding: 2px 16px;
+}
+
+.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 10px;
+}
