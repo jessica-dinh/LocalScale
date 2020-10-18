@@ -173,7 +173,7 @@ color: #FFFFFF;
 
 button.signup {
   position: static;
-  height: 18px;
+  height: 40px;
   left: 18px;
   right: 18px;
   top: calc(50% - 18px/2);
@@ -181,7 +181,7 @@ button.signup {
   font-family: Mulish;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
 
   position: static;
@@ -278,14 +278,14 @@ letter-spacing: 0.2px;
 color: #000000;
 }
 
-rectangle {
+.rectangle {
   position: static;
 width: 445px;
 height: 398px;
 left: 10px;
 top: 10px;
 
-background: url(Screen Shot 2020-10-17 at 1.07.png);
+/*background: url(Screen Shot 2020-10-17 at 1.07.png);*/
 border-radius: 10px;
 
 /* Inside Auto Layout */
