@@ -93,6 +93,16 @@ body{
     flex-direction: column;
 }
 
+#box{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+html { overflow-y: scroll; }
+body { position: absolute; }
+
+
+
 #textbox {
     height: 200px;
 }

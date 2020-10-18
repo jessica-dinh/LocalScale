@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>NAVBAR</title>
 
@@ -28,17 +27,28 @@
         </ul>
         <ul class = "popDis">
         <a href="#">Popular Discussion</a>
+
+
+        <form action="/action_page.php" method="get">
+            <div id = "checkbox">
+            <input type="checkbox" name="box1" value="Managment">
+            <label for="box1"> Managment</label><br>
+            <input type="checkbox" name="box2" value="Investing">
+            <label for="box2"> Investing</label><br>
+            <input type="checkbox" name="box3" value="Funding" >
+            <label for="box3"> Funding</label><br>
+            <input type="checkbox" name="box4" value="Supply Chain" >
+            <label for="box4"> Supply Chain</label><br>
+            </div>
+          </form>
         <form id="new-post">
             <textarea id="textbox" type="text" id="textbox" placeholder="What do you need help with today?"></textarea>
-            <input id="submit-btn" type="submit" value="Post" onclick="addTextBox()"></input>
+            <input id="submit-btn" type="submit" value="Post" onclick="storeInfo(checkbox)"></input>
         </form>
-
         </ul>
-        <title>
-            <description>
 
-            </description>
-        </title>
+        <IMG STYLE="position:absolute; TOP:700px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="firstPost.png">
+        <IMG STYLE="position:absolute; TOP:900px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="firstSecondPost.png">
         <IMG STYLE="position:absolute; TOP:225px; LEFT:914px; WIDTH:374px; HEIGHT:374px" SRC="AAAA.png">
 
 
