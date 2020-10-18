@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <link href="service_nonuser.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap" rel="stylesheet">
+    <script src="service_nonuser.js"></script>
     <title>Digital Marketing</title>
   </head>
   <body>
     <header>
       <div>
-        <h1>LOCALSCALE</h1>
+        <h1><img src="../../static/img/logo.png" style="width: 70px; padding-right: 10px; vertical-align: middle;" />LOCALSCALE</h1>
       </div>
       <nav id="navigation">
-        <a href= "/">About</a>
-        <a href= "/">Products</a>
-        <a href= "/" class="active">Services</a>
+        <a href= "../../index.html">About</a>
+        <a href= "../discussion-page/discussion.html">Advice</a>
+        <a href= "../service-page/service _nonuser.html" class="active">Services</a>
         <a href= "/">Contact</a>
         <a href= "/">Help</a>
       </nav>
@@ -45,6 +46,45 @@
             <option value="filter-2">$16 - $30</option>
             <option value="filter-3">$31 and up</option>
           </select>
+          <button id="offer-btn">Offer your services</button>
+          <div id="popup" class="hidden">
+
+            <div class="popup-content">
+              <span id="close">&times;</span>
+              <h2>What service/s would you like to offer?</h2>
+              <ul>
+                <li>
+                  <input type="checkbox">
+                  <p>Logos</p>
+                </li>
+                <li>
+                  <input type="checkbox">
+                  <p>Web Design</p>
+                </li>
+                <li>
+                  <input type="checkbox">
+                  <p>Game Art</p>
+                </li>
+                <li>
+                  <input type="checkbox">
+                  <p>Business Design</p>
+                </li>
+                <li>
+                  <input type="checkbox">
+                  <p>Banners</p>
+                </li>
+                <li>
+                  <input type="checkbox">
+                  <p>Filters</p>
+                </li>
+                <li>
+                  <input type="checkbox">
+                  <p>Product Design</p>
+                </li>
+              </ul>
+            </div>
+
+          </div>
         </article>
         <article id="main-content">
           <div id="categories">
