@@ -72,10 +72,14 @@ section {
   padding-bottom: 80px;
 }
 
+#header h1 {
+  font-size: 50px;
+  line-height: 10px;
+}
+
 #header img {
-  max-width: 30%;
-  height: auto;
   margin-right: 30px;
+  margin-left: 50px;
 }
 
 /* card container */
