@@ -3,12 +3,13 @@
 <html>
     <head>
         <title>NAVBAR</title>
-
         <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
-        <script type="text/javascript" src = "main.js"></script>
+        <script type="text/javascript" src = "index.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
     </head>
     <body>
-
         <ul class="nav">
         <li><h1><img src="../../static/img/logo.png" style="width: 70px; padding-right: 10px; vertical-align: middle;" />LOCALSCALE</h1></li>
         <li><a href="../../index.html">About</a></li>
@@ -43,10 +44,31 @@
           </form>
         <form id="new-post">
             <textarea id="textbox" type="text" id="textbox" placeholder="What do you need help with today?"></textarea>
-            <input id="submit-btn" type="submit" value="Post" onclick="storeInfo(checkbox)"></input>
+            <input id="submit-btn" type="submit" value="Post" onclick="createPost()"></input>
         </form>
         </ul>
 
+        <IMG STYLE="position:absolute; TOP:700px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="firstPost.png">
+        <IMG STYLE="position:absolute; TOP:900px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="firstSecondPost.png">
+        <IMG STYLE="position:absolute; TOP:225px; LEFT:914px; WIDTH:374px; HEIGHT:374px" SRC="AAAA.png">
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyCQ00ev3sYiNVp0d4aKqBaoSp2WHvoLtC8",
+                authDomain: "scalelocal.firebaseapp.com",
+                databaseURL: "https://scalelocal.firebaseio.com",
+                projectId: "scalelocal",
+                storageBucket: "scalelocal.appspot.com",
+                messagingSenderId: "260750238801",
+                appId: "1:260750238801:web:69dc80bd1b4317aa2c4470",
+                measurementId: "G-KBQ9C4SBLL",
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
+    </body>
+</html>
         <IMG STYLE="position:absolute; TOP:700px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="../../static/img/firstPost.png">
         <IMG STYLE="position:absolute; TOP:900px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="../../static/img/firstSecondPost.png">
         <IMG STYLE="position:absolute; TOP:225px; LEFT:914px; WIDTH:374px; HEIGHT:374px" SRC="../../static/img/AAAA.png">
