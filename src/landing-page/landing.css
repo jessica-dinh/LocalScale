@@ -8,6 +8,7 @@ body {
     text-align:center;
     padding:20px;
     background-color: rgb(240, 247, 243);
+
     }
 #nav li {
     display:inline;
@@ -37,19 +38,36 @@ body {
     vertical-align: middle;
 }
 
-.button {
-    border: 2px solid rgb(47,128,238);
-    background-color: rgb(186, 204, 239);
-    color: rgb(47,128,238);
+.right-picture > img{
+    position: relative;
+    
+    float: right;
+}
+.left-text{
+    padding-right: 100px;
+    float: left;
+    vertical-align: middle;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
     padding: 14px 28px;
     font-size: 16px;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
     cursor: pointer;
-
   }
 
+.success {
+    border-color: rgb(47,128,238);
+    color: rgb(47,128,238);
+    background-color: rgb(186, 204, 239);
+  }
+  
+.success:hover {
+    background-color: rgb(47,128,238);
+    color: white;
+  }
   #ABC {
     background-color: rgb(186, 204, 239);
     height: auto;
@@ -74,3 +92,13 @@ body {
     color: #5d8ffc;
     border: 1px solid #5d8ffc;
 }
+  #white {
+    background-color:white;
+    height: auto;
+    padding-left:10px;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 500px;
+  }
