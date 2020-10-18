@@ -3,13 +3,6 @@ body {
     padding: 0;
     background: #ffffff;
   }
-#nav li {
-    display:inline;
-    }
-#nav a {
-    text-decoration:none; 
-    padding:0 30px; /* variable width */
-    }
 
 #title_left {
     text-align: left;
@@ -17,10 +10,6 @@ body {
     background-color: rgb(240, 247, 243);
 }
 
-#bod_box{
-    background-color: rgb(243,247,255);
-    padding: 0%;
-}
 
 .left-picture > img{
     float: left;
@@ -64,9 +53,9 @@ body {
   }
   #ABC {
     background-color: rgb(186, 204, 239);
-    height: auto;
+    height: 400px;
     position: absolute;
-    left: 0;
+    margin-left: 0px;
     width: 100%;
   }
 
@@ -79,6 +68,7 @@ body {
     left: 0;
     width: 100%;
     margin-top: 500px;
+    margin-left: 0px;
   }
 
   body {
