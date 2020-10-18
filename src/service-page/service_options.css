@@ -82,18 +82,15 @@ section {
   font-family: 'Inter', sans-serif;
 }
 
-.filter-dropdown {
-  display: inline;
-}
-
 #dropdown-cat, #dropdown-price {
+  display: inline;
   width: 160px;
   height: 30px;
   padding: 5px;
   border-radius: 5px;
 }
 
-#body, #main-content {
+#main-content {
   display: flex;
 }
 
