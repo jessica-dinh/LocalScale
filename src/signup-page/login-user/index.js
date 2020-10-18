@@ -40,6 +40,7 @@ function signup() {
     .catch(function (error) {
       console.log("got an error", error);
     });
+    window.location.replace("logout.html");
 }
 function login() {
   var userEmail = document.getElementById("email_field").value;
