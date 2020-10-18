@@ -1,54 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet" />
-        <link href="https://fonts.google.com/specimen/Inter" rel="stylesheet"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.google.com/specimen/Inter" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Latest compiled JavaScript -->
-	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-        
-        <title>Welcome!</title>
-        <!-- import the webpage's stylesheet -->
-        <link rel="stylesheet" href="index.css" />  
-        <section>
-            <ul id="nav">
-                <li><a href="index.html" style="color:#219653;margin-right: 300px;">LOCALSCALE</a></li>
-                <li><a href="index.html" style="color:#219653; ">About</a></li>
-                <li><a href="#" style="color:#219653;">Advice</a></li>
-                <li><a href="./src/service-page/service_digital-marketing.html" style="color:#219653;">Service</a></li>
-                <li><a href="./src/discussion-page/discussion.html" style="color:#219653;">Discussion Forum</a></li>
-                <li><a href="#" style="color:#219653;">Help</a></li>
-                <li><a href="./src/signup-page/index.html" style="color:#219653;margin-left: 300px;">Sign Up</a></li>
-                <li><a href="#" style="color:#219653;">Sign In</a></li>
-            </ul>
-        </section>
-    </head>
+    <title>Welcome!</title>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-    <body>
+  <body>
+    <header>
+      <div>
+        <h1>LOCALSCALE</h1>
+      </div>
+      <nav id="navigation">
+        <a href="index.htm">About</a>
+        <a href="./src/discussion-page/discussion.html">Discussion Forum</a>
+        <a
+          href="./src/service-page/service_digital-marketing.html"
+          class="active"
+          >Services</a
+        >
+        <a href="/">Link #1</a>
+        <a href="/">Link #2</a>
+      </nav>
+      <div id="user-btn">
         <form action="./src/signup-page/index.html">
-            
-            <button class="myButton">Hello</button>
+          <button id="sign-up">Log In</button>
         </form>
-        <section id="ABC">
-            <div class="left-picture">
-				<img src="logo.png" style="width: 500px; padding-left: 40px; ">
-            </div>
-            <div class="right-text">
-                <h3 style="color:rgb(47,128,238); font-weight: bolder; padding-top: 100px;">ABOUT US</h3>
-                <h2 style='color: black;font-size: 35px;'>Growing local economies one small business at a time</h2>
-                <p style='color: rgb(110, 110, 110); font-size: 20px;text-align: center;'>At LocalScale...</p>
-                <a href="#"><button class="btn success">Contact Us</button></a>
-            </div>
-        </section>
-        <section id="white">
-            <div class="right-picture">
-                <img src="v2_106.png" style="width: 500px; padding-right: 40px; ">
-            </div>
-            <div class="left-text">
-                <h2 style='color: black;font-size: 35px;text-align: center;padding-left:150px'>Fostering creativity and innovation</h2>
-                <p style='color: rgb(110, 110, 110); font-size: 20px;text-align: center;padding-left:150px'>Something somthing</p>
-            </div>
-        </section>
-    </body>
+      </div>
+    </header>
+    <section id="ABC">
+      <div class="left-picture">
+        <img src="logo.png" style="width: 500px; padding-left: 40px" />
+      </div>
+      <div class="right-text">
+        <h3
+          style="
+            color: rgb(47, 128, 238);
+            font-weight: bolder;
+            padding-top: 100px;
+          "
+        >
+          ABOUT US
+        </h3>
+        <h2 style="color: black; font-size: 35px">
+          Growing local economies one small business at a time
+        </h2>
+        <p
+          style="color: rgb(110, 110, 110); font-size: 20px; text-align: center"
+        >
+          At LocalScale...
+        </p>
+        <a href="#"><button class="btn success">Contact Us</button></a>
+      </div>
+    </section>
+    <section id="white">
+      <div class="right-picture">
+        <img src="v2_106.png" style="width: 500px; padding-right: 40px" />
+      </div>
+      <div class="left-text">
+        <h2
+          style="
+            color: black;
+            font-size: 35px;
+            text-align: center;
+            padding-left: 150px;
+          "
+        >
+          Fostering creativity and innovation
+        </h2>
+        <p
+          style="
+            color: rgb(110, 110, 110);
+            font-size: 20px;
+            text-align: center;
+            padding-left: 150px;
+          "
+        >
+          Something somthing
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
