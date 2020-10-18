@@ -1,9 +1,5 @@
-body :not() {
+body {
   font-size: 16px;
-  margin: 30px;
-}
-header {
-  margin: 0%;
 }
 
 header, #header {
@@ -11,6 +7,8 @@ header, #header {
   display: flex;
   background-color: #F3F6FA;
   align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 nav {
@@ -61,12 +59,17 @@ header button {
 }
 
 section {
-  margin-top: 50px;
+  margin-top: 100px;
+  margin: 50px;
+}
+
+#view-filter, #body {
+  font-family: 'Inter', sans-serif;
 }
 
 #header {
-  display: flex;
-  padding: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #header img {
