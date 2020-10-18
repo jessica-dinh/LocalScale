@@ -63,10 +63,6 @@ section {
   margin: 50px;
 }
 
-#view-filter, #body {
-  font-family: 'Inter', sans-serif;
-}
-
 #header {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -80,6 +76,25 @@ section {
 #header img {
   margin-right: 30px;
   margin-left: 50px;
+}
+
+#view-filter, #body {
+  font-family: 'Inter', sans-serif;
+}
+
+.filter-dropdown {
+  display: inline;
+}
+
+#dropdown-cat, #dropdown-price {
+  width: 160px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#body {
+  display: flex;
 }
 
 /* card container */
@@ -96,6 +111,11 @@ section {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.card img {
+  max-width: 100%;
 }
 
 img {
