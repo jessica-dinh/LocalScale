@@ -4,37 +4,63 @@ body{
     font-family: Mulish;
     font-size: 16px;
 }
-.nav{
-    position: aboslute;
-    background-color: #afe6c7;
-    color: #1f1010;
-    list-style: none;
-    text-align: center;
-    padding: 20px 0 25px 0;
+
+header, #header {
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  background-color: #F3F6FA;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
-.nav > li {
-    display: inline-block;
-    padding-right: 50px;
-}
-.nav > li > h1 {
-    text-align: left;
-    margin-left: 100px;
-    color: green;
-    height: 32px;
-    left: 0px;
-    right: -192px;
-    top: calc(50% - 32px/2);
+nav {
+  margin-left: 220px;
 }
 
-.nav > li > a {
-    text-decoration: none;
-    color: #1f1010;
+/* links inside the navigation bar */
+nav a {
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
 }
 
-.nav > li > a:hover{
-    color: #219653;
+/* active nav link */
+h1, nav a.active {
+  color: #0E4DA4;
 }
+
+nav a:hover {
+  color: gray;
+}
+
+#user-btn {
+  position: absolute;
+  right: 100px;
+}
+
+header button {
+  font-size: 16px;
+  text-align: center;
+  height: 35px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+#sign-in {
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+#sign-up {
+  background-color: #0E4DA4;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
 
 .disBut{
     position: aboslute;

@@ -15,15 +15,27 @@
     </head>
 
     <body>
-        <ul class="nav">
-        <li><h1><img src="../../static/img/logo.png" style="width: 70px; padding-right: 10px; vertical-align: middle;" />LOCALSCALE</h1></li>
-        <li><a href="../../index.html">About</a></li>
-        <li><a href="../discussion-page/discussion.html">Advice</a></li>
-        <li><a href="../service-page/service _nonuser.html">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Help</a></li>
-        </ul>
-        
+      <header>
+        <div>
+          <h1>
+            <img
+              src="static/img/logo.png"
+              style="width: 70px; padding-right: 10px; vertical-align: middle"
+            />LOCALSCALE
+          </h1>
+        </div>
+        <nav id="navigation">
+          <a href="index.html">About</a>
+          <a href="./src/discussion-page/discussion.html">Discussion Forum</a>
+          <a href="./src/service-page/service.html" class="active">Services</a>
+        </nav>
+        <div id="user-btn">
+          <form action="./src/signup-page/index.html">
+            <button id="sign-up">Log In</button>
+          </form>
+        </div>
+      </header>
+
         <ul class = "disBut">
         <li><button href='#'>About</button></li>
         <li><button href='#'>Managment</button></li>
