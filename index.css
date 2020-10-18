@@ -22,7 +22,7 @@ body {
 
 .right-picture > img{
     position: relative;
-    
+
     float: right;
 }
 
@@ -46,7 +46,7 @@ body {
     color: rgb(47,128,238);
     background-color: rgb(186, 204, 239);
   }
-  
+
 .success:hover {
     background-color: rgb(47,128,238);
     color: white;
@@ -246,6 +246,7 @@ nav a {
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
+  font-family: Mulish;
 }
 
 /* active nav link */

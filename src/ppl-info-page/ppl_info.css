@@ -6,7 +6,7 @@ nav {
   left: 0px;
   right: 0px;
   top: 0px;
-background-color: #D2DDF2
+  background-color: #D2DDF2
 }
 
 ul {
@@ -209,8 +209,8 @@ button.bg {
 position: absolute;
 width: 232px;
 height: 54px;
-left: 720px;
-top: 715px;
+/* left: 720px;
+top: 715px; */
 
 background: #3C64B1;
 border-radius: 10px;
@@ -341,4 +341,9 @@ width: 1069px;
 height: 453px;
 left: 111px;
 top: 1475px;
+}
+
+#new-post {
+  display: flex;
+  flex-direction: column;
 }

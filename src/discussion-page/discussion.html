@@ -4,11 +4,16 @@
     <head>
         <title>NAVBAR</title>
         <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+        <link rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Inter">
+        <link rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Mulish">
         <script type="text/javascript" src = "index.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
     </head>
+
     <body>
         <ul class="nav">
         <li><h1><img src="../../static/img/logo.png" style="width: 70px; padding-right: 10px; vertical-align: middle;" />LOCALSCALE</h1></li>
@@ -18,7 +23,7 @@
         <li><a href="#">Contact</a></li>
         <li><a href="#">Help</a></li>
         </ul>
-
+        
         <ul class = "disBut">
         <li><button href='#'>About</button></li>
         <li><button href='#'>Managment</button></li>
@@ -26,8 +31,9 @@
         <li><button href='#'>Funding</button></li>
         <li><button href='#'>Supply Chain</button></li>
         </ul>
+
         <ul class = "popDis">
-        <a href="#">Popular Discussion</a>
+        <a href="#"><strong>Popular Discussion</strong></a>
 
 
         <form action="/action_page.php" method="get">
@@ -42,12 +48,13 @@
             <label for="box4"> Supply Chain</label><br>
             </div>
           </form>
+          <br>
         <form id="new-post">
             <textarea id="textbox" type="text" id="textbox" placeholder="What do you need help with today?"></textarea>
             <input id="submit-btn" type="submit" value="Post" onclick="createPost()"></input>
         </form>
         </ul>
-
+        <br>
         <IMG STYLE="position:absolute; TOP:700px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="firstPost.png">
         <IMG STYLE="position:absolute; TOP:900px; LEFT:290px; WIDTH:400px; HEIGHT:150px" SRC="firstSecondPost.png">
         <IMG STYLE="position:absolute; TOP:225px; LEFT:914px; WIDTH:374px; HEIGHT:374px" SRC="AAAA.png">
