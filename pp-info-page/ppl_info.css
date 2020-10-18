@@ -1,0 +1,344 @@
+
+nav {
+
+  position: absolute;
+  height: 88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+background-color: #D2DDF2
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  align-items: flex-start;
+
+  position: absolute;
+  width: 372px;
+  height: 18px;
+  left: calc(50% - 372px/2);
+  top: calc(50% - 18px/2);
+  /*this option by default dispose the elements in a row (flex-direction: row)*/
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+  margin: 0 .25vw;
+}
+
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /*below I changed the color*/
+  color: #373F41;
+  /*I added some padding*/
+  padding: 1vw;
+  /*also changed the font family but that's totally irrelevant*/
+  font-family: Mulish;
+}
+
+a.logo {
+  position: absolute;
+  height: 12px;
+  left: 135px;
+  right: -192px;
+  top: calc(50% - 32px/2);
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+
+  /* Accent / Default */
+
+  color: #3C64B1;
+}
+
+ol {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 170px;
+  height: 16px;
+  right: 175px;
+  top: calc(50% - 50px/2);
+
+}
+
+a:hover{
+  text-color: #219653;
+}
+
+h1 {
+  position: absolute;
+  width: 542px;
+  height: 64px;
+  left: 721px;
+  top: 218px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 20px;
+  /* or 56% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+
+  color: #000000;
+}
+
+h2 {
+  position: absolute;
+  width: 542px;
+  height: 64px;
+  left: 721px;
+  top: 263px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 20px;
+  /* or 80% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+
+  color: #4F4F4F;
+}
+
+p {
+
+  position: absolute;
+  width: 495px;
+  height: 279px;
+  left: 721px;
+  top: 356px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+
+  color: #000000;
+}
+
+button {
+position: absolute;
+width: 162px;
+height: 36px;
+left: 755px;
+top: 724px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 18px;
+/* or 75% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: #FFFFFF;
+}
+
+button.signup {
+  position: static;
+  height: 18px;
+  left: 18px;
+  right: 18px;
+  top: calc(50% - 18px/2);
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+
+  position: static;
+  width: 80px;
+  height: 38x;
+  right: 0px;
+  top: calc(50% - 42px/2);
+
+  /* Green 1 */
+
+  background: #219653;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 0px;
+
+}
+
+button.bg {
+position: absolute;
+width: 232px;
+height: 54px;
+left: 720px;
+top: 715px;
+
+background: #3C64B1;
+border-radius: 10px;
+}
+h3.contact {
+  position: absolute;
+  width: 168px;
+  height: 57px;
+  left: 111px;
+  top: 658px;
+
+  font-family: Inter !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 18px;
+  /* or 72% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+
+  color: #000000;
+}
+
+h3.work {
+position: absolute;
+width: 168px;
+height: 57px;
+left: 111px;
+top: 875px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 18px;
+/* or 72% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+
+color: #000000;
+}
+
+h3.reviews {
+  position: absolute;
+width: 168px;
+height: 57px;
+left: 111px;
+top: 1384px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 18px;
+/* or 72% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+
+color: #000000;
+}
+
+rectangle {
+  position: static;
+width: 445px;
+height: 398px;
+left: 10px;
+top: 10px;
+
+background: url(Screen Shot 2020-10-17 at 1.07.png);
+border-radius: 10px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 10px;
+}
+img.bobportait {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0px 0px 10px;
+
+  position: absolute;
+  width: 465px;
+  height: 418px;
+  left: 90px;
+  top: 231px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+img.socials {
+  position: absolute;
+  width: 229px;
+  height: 34px;
+  left: 113px;
+  top: 747px;
+
+}
+
+img.drawings {
+  position: absolute;
+width: 1164px;
+height: 258px;
+left: 111px;
+top: 990px;
+}
+
+img.reviewreacts {
+position: absolute;
+width: 1069px;
+height: 453px;
+left: 111px;
+top: 1475px;
+}
